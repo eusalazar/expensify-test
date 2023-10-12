@@ -1,0 +1,18 @@
+# Ignorar directorio node_modules
+./node_modules
+
+# Ignorar archivos de registro de npm
+npm-debug.log*
+
+# Ignorar archivos de bloqueo de npm
+package-lock.json
+
+# Ignorar archivos de dependencias
+*.pem
+*.p12
+*.key
+*.csr
+*.srl
+
+# Ignorar archivo .env con configuraciones de entorno sensibles
+.env
